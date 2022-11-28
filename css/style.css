@@ -9,7 +9,6 @@
   }
   .parent {background-color: aliceblue ;}
   .contaner{width: 600px ;
-      background-color: brown;
       /*adding padding so the contant doesnt start with the beging of page*/
     padding-left: 15px;
     padding-right: 15px;
@@ -31,4 +30,22 @@
     .container {
       width: 1170px;
     }
+  }
+  /* End Global Rules */
+/* Start Components */
+.header {
+    padding: 20px;
+  }
+  /*make the conatent of the header show probray*/
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .logo {
+    width: 60px;
+  }
+  /*make the link relative to make it show probray later*/
+  .header .links {
+    position: relative;
   }
