@@ -49,6 +49,10 @@
   .header .links {
     position: relative;
   }
+  /*make the secand span be 100 when hovering*/
+  .header .links:hover .icon span:nth-child(2) {
+    width: 100%;
+  }
   .header .links .icon {
     width: 30px;
     display: flex;
@@ -67,6 +71,7 @@
   }
   .header .links .icon span:nth-child(2) {
     width: 60%;
+    transition: var(--main-duration);
   }
   .header .links .icon span:last-child {
     width: 100%;
