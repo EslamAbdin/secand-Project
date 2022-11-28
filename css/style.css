@@ -49,3 +49,25 @@
   .header .links {
     position: relative;
   }
+  .header .links .icon {
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap; /*to make the one content on each line*/
+    justify-content: flex-end; /*make the icon at the end*/
+  }
+
+  .header .links .icon span {
+    background-color: #333;
+    margin-bottom: 5px;
+    height: 2px;
+  }
+
+  .header .links .icon span:first-child {
+    width: 100%;
+  }
+  .header .links .icon span:nth-child(2) {
+    width: 60%;
+  }
+  .header .links .icon span:last-child {
+    width: 100%;
+  }
