@@ -8,4 +8,11 @@
     font-family: "Work Sans", sans-serif;
   }
   .parent {background-color: aliceblue ;}
-  .contaner{width: 600px ; margin: auto; background-color: brown;}
+  .contaner{width: 600px ;
+      background-color: brown;
+      /*adding padding so the contant doesnt start with the beging of page*/
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
