@@ -222,3 +222,13 @@
       text-align: center;
     }
   }
+  .services .srv i {
+    color: var(--main-color);
+    flex-basis: 60px; /*we used this to make it more orgn for mobile*/
+  }
+  .services .srv .text {
+    flex: 1;
+  }
+  .services .srv .text h3 {
+    margin: 0 0 20px;
+  }
