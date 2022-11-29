@@ -359,5 +359,11 @@
     line-height: 2;
     color: #777;
   }
+/* Start Contact */
+.contact {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--section-background);
+  }
 
   
