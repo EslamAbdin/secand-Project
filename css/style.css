@@ -123,11 +123,12 @@
 /* End Header */
 /* Start Landing Section */
 .landing {
-    background-image: url(../image/background.jpg);
+    background-image: url(../image/background.jpg); /*adding image to the page to be shown at the upper part*/
     background-size: cover;
-    height: calc(100vh - 64px);
+    height: calc(100vh - 64px); 
     position: relative;
 }
+/*orgnis the text inside the photo*/
 .landing .intro-text {
     position: absolute;
     left: 50%;
