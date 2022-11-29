@@ -328,4 +328,8 @@
     z-index: -1;
     right: -150px;
   }
+  .about .about-content .image img {
+    max-width: 100%;
+  }
+
   
