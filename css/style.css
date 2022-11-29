@@ -331,5 +331,8 @@
   .about .about-content .image img {
     max-width: 100%;
   }
+  .about .about-content .text {
+    flex-basis: calc(100% - 500px);
+  }
 
   
