@@ -9,7 +9,7 @@
     box-sizing: border-box;
   }
   body {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Work Sans", sans-serif; 
   }
   .parent {background-color: aliceblue ;}
   .contaner{width: 600px ;
@@ -69,7 +69,7 @@
     margin-bottom: 5px;
     height: 2px;
   }
-
+/*design the icon of the nav bar*/
   .header .links .icon span:first-child {
     width: 100%;
   }
