@@ -2,6 +2,7 @@
 :root {
     --main-color: #10cab7; /*adding main color to the page so it can be easily used for later on*/
     --secondary-color: #2c4755;
+    --section-padding: 60px;
 }
 /* global rules that for entire project */
 * {
